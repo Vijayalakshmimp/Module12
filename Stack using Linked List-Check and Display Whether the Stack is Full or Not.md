@@ -14,16 +14,12 @@ To write a Python program that:
 
 1. **Import the LifoQueue class**:
    - Import `LifoQueue` from the `queue` module to create the stack.
-
 2. **Create a Stack**:
    - Instantiate a `LifoQueue` with a maximum size (e.g., 4).
-
 3. **Add Elements to the Stack**:
    - Add elements (e.g., 'a', 'b', and 'c') to the stack using the `put()` method.
-
 4. **Check if the Stack is Full**:
    - Use the `full()` method of `LifoQueue` to check if the stack has reached its maximum capacity.
-
 5. **Display the Status**:
    - Print "Stack is full" if the stack is full.
    - Otherwise, print "Stack is not full".
