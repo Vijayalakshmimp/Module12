@@ -29,8 +29,27 @@ To write a Python program to:
 
 ---
 ## Program
-Add code here
+~~~
+queue = []
+
+queue.append('a')
+queue.append('b')
+queue.append('c')
+queue.append('d')
+
+print('Initial Queue: ' + str(queue))
+
+front = queue[0]
+
+print("\nElement at the front of the queue is .... ", front)
+
+rear = queue[3]
+
+print("\nElement at the rear of the queue is .... ", rear)
+~~~
 
 ## Output
+<img width="1051" height="268" alt="image" src="https://github.com/user-attachments/assets/1e8494d5-3619-4098-accd-33ab03456c1a" />
 
 ## Result
+Thus, the program is executed and verified successfully.
